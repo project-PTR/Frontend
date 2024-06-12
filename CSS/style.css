@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffcc00;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header.logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #ffcc00;
+  cursor: pointer;
+}
+
+.live-videos,
+.feed {
+  margin: 20px 0;
+}
+
+.video-grid,
+.feed-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.video,
+.feed-item {
+  background-color: #e0e0e0;
+  height: 150px;
+}
+
+.notice table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.notice table th,
+.notice table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.notice table th {
+  background-color: #f2f2f2;
+}

@@ -1,25 +1,75 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>PTR</title>
   </head>
   <body>
-    <div class="container">
-      <div class="title">
-        <h1>PTR</h1>
+    <header>
+      <div class="logo">
+        <h1>Logo</h1>
       </div>
-      <div class="menu">
-        <div><a href="main.html">메인</a></div>
-        <div><a href="lecture.html">교육</a></div>
-        <div><a href="record.html">관리 및 기록</a></div>
-        <div><a href="community.html">커뮤니티</a></div>
-        <div><a href="feed.html">피드</a></div>
-        <div><a href="mypage.html">마이페이지</a></div>
-        <div><a href="customerService.html">고객센터</a></div>
-        <div><a href="login.html">로그인</a></div>
-      </div>
+      <nav>
+        <ul>
+          <li><a href="main.html"></a>메인</li>
+          <li><a href="lecture.html"></a>교육</li>
+          <li><a href="manager.html"></a>관리 및 기록</li>
+          <li><a href="community.html"></a>커뮤니티</li>
+          <li><a href="feed.html"></a>피드</li>
+          <li><a href="user.html"></a>마이페이지</li>
+          <li><a href="customerService.html"></a>고객센터</li>
+        </ul>
+      </nav>
+      </header>
+
+      <main>
+        <h1>Personal Training Raise</h1>
+        <div class="search-bar">
+          <input type="text" placeholder="sarchBar">
+          <button>🔍</button>
+          </div>
+          <section class="live-videos">
+            <h2>실시간 교육 영상</h2>
+          <div class="video-grid">
+          <div class="video"></div>
+          <div class="video"></div>
+          <div class="video"></div>
+          <div class="video"></div>
+        </div>
+          </section>
+
+        <section class="feed">
+          <h2>피드 바로 보기</h2>
+          <div class="feed-grid">
+            <div class="feed-item">@feedId1</div>
+            <div class="feed-item">@feedId2</div>
+            <div class="feed-item">@feedId3</div>
+          </div>
+        </section>
+
+        <section class="notice">
+          <h2>공지사항</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>No.</th>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>날짜</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>공지사항 제목</td>
+                <td>관리자</td>
+                <td>2024-06-12</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
       <div class="content"></div>
       <div class="footer"></div>
     </div>
