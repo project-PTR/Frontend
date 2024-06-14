@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/style.css">
-    <!-- css 추가해서 작업 -->
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/lecture.css" />
+    <title>Personal Training</title>
   </head>
   <body>
     <div class="container">
@@ -26,17 +25,52 @@
         <div class="login_box">로그인 / 회원가입</div>
       </div>
       <div class="heading">
-        <div class="head_title">입력</div>
-        <div class="head_subtitle">입력</div>
-      </div>      
+        <div class="head_title">Personal Training</div>
+        <div class="head_subtitle">홈 > 교육</div>
+      </div>
       <div class="content">
-        <div class="content_menu">
-          <div>입력</div>
-          <div>입력</div>
-          <div>입력</div>
-        </div>
         <div class="content_body">
-          <!-- 여기서 작업해야 함 -->
+          <div class="search_bar">
+            <select name="lecture">
+              <option value="lecture1">강의명</option>
+              <option value="lecture1">강사명</option>
+            </select>
+            <input type="text" placeholder="검색어를 입력하세요" />
+            <button type="submit">🔍</button>
+          </div>
+          <div class="video_section">
+            <h2>맞춤 교육 영상</h2>
+            <div class="videos">
+              <div class="video">Video1</div>
+              <div class="video">Video2</div>
+              <div class="video">Video3</div>
+            </div>
+          </div>
+          <div class="instructor_section">
+            <h2>강사 소개</h2>
+            <div class="instructors">
+              <div class="instructor">
+                <div class="profile_pic"></div>
+                <div class="name">NAME</div>
+              </div>
+              <div class="instructor">
+                <div class="profile_pic"></div>
+                <div class="name">NAME</div>
+              </div>
+              <div class="instructor">
+                <div class="profile_pic"></div>
+                <div class="name">NAME</div>
+              </div>
+            </div>
+          </div>
+          <div class="related_videos_section">
+            <h2>관련 추천 영상</h2>
+            <div class="related_videos">
+              <div class="related_video"></div>
+              <div class="related_video"></div>
+              <div class="related_video"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
