@@ -1,0 +1,386 @@
+.content_menu > div:hover{
+  font-weight: bold;
+}
+.content_body{
+  height: 10000px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.content_body_title{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 70px;
+}
+.content_body_subscription{
+  text-align: center;
+  width: 100%;
+}
+.box{
+  font-weight: bold;
+  width: 100%;
+  border: 1px solid black;
+  background-color: gray;
+  border-radius: 10px;
+}
+.content_body_subscriptionlist{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 120px;
+}
+.content_body_subscriptionlist_box{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.content_body_subscriptionlist_box_img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: yellow;
+  margin-bottom: 30px;
+}
+.content_body_subscriptionlist_box_name{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.content_body_subscriptionlist_box_butten{
+  padding: 10px;
+  background-color: green;
+  border-radius: 10px;
+}
+.content_body_subscriptionlist_box_butten:hover{
+  background-color: yellow;
+}
+.content_body_favoriteLecture{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.content_body_favoriteLecture_box{
+  background-color: gray;
+}
+.content_body_favoriteLecture_box_img{
+  height: 250px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: yellow;
+}
+.content_body_favoriteLecture_box_title{
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* 기록 및 통계 부분 */
+
+.content_body_myrecord{
+  text-align: center;
+  width: 100%;
+}
+
+.content_body_myrecord_move{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.content_body_myrecord_move > div{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  margin: 30px 30px 100px 30px;
+}
+
+.content_body_myrecord_move > div:hover{
+  background-color: yellow;
+  color: black;
+}
+
+.content_body_myrecord_box_title{
+  position: relative;
+  width: 10%;
+  bottom: -10px;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content_body_myrecord_box{
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.weight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #2C394A;
+}
+.circlelast{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #FEC009;
+}
+
+.line{
+  width: 200px;
+  border: 1px solid #2C394A;
+}
+
+/* 기록 및 통계 > 식단 & 운동 */
+.content_body_myrecord_box2{
+  margin: 100px;
+  text-align: start;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  align-items: center;
+  gap: 40px;
+}
+.content_body_myrecord_box_value{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+}
+.value{
+  font-size: 15px;
+}
+.goalbar{
+  width: 100px;
+  height: 20px;
+  background-color: #2C394A;
+}
+.recordbar{
+  width: 100px;
+  height: 20px;
+  background-color: #FEC009;
+}
+
+
+
+/* 피드 */
+
+.content_body_feed{
+  width: 100%;
+  text-align: center;
+}
+
+.content_body_feed_profile{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 10px;
+}
+
+
+.content_body_feed_profile_left_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.content_body_feed_profile_img{
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: gray;
+  border-radius: 100%;
+}
+
+.content_body_feed_profile_id{
+  font-weight: bold;
+}
+
+.content_body_feed_profile_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content_body_feed_profile_box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+
+.content_body_feed_profile_butten_box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.content_body_feed_profile_butten{
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px;
+}
+.content_body_feed_profile_butten:hover{
+  background-color: #FEC009;
+  color: #2C394A;
+  border: none;
+}
+
+.content_body_feed_myfeeds{
+  margin-top: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.content_body_feed_myfeeds > div{
+  background-color: gray;
+  width: auto;
+  height: 300px;
+}
+
+
+
+
+
+/* <div class="content_body_cash">
+            <div>캐시 충전소</div>
+            <div class="content_body_cash_menu">
+              <div>충전</div>
+              <div>충전내역</div>
+            </div>
+            <div class="">
+              <div>현재 보유 단백질바</div>
+              <div>개</div>
+            </div>
+            <div class="">
+              <div class=""></div>
+              <div class="content_body_cash_box_text">단백질바 1개</div>
+              <div class="content_body_cash_box_butten">200원</div>
+            </div>
+            <div class="content_body_cash_flex">
+              <div>충전 후 보유 단백질바</div>
+              <div>개</div>
+            </div>
+            <div class="content_body_cash_flex">
+              <div>결제 금액</div>
+              <div>원</div>
+            </div>
+            <div class="">결제하기</div>
+*/
+
+.content_body_cash{
+  width: 100%;
+  margin-top: 50px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 80px;
+}
+.content_body_cash_title{
+  font-size: 50px;
+}
+.content_body_cash_menu{
+  margin-top: 30px;
+  display: flex;
+  border-bottom: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.content_body_cash_grid{
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.text_left{
+  text-align: left;
+}
+.text_right{
+  text-align: right;
+}
+
+.content_body_cash_box{
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
+  gap: 30px 80px;
+  margin: 100px;
+  align-items: center;
+}
+
+.content_body_cash_box_img{
+  width: 200px;
+  height: 70px;
+  background-color: gray;
+}
+
+.content_body_cash_box_text{
+  text-align: left;
+}
+
+.content_body_cash_box_butten{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.content_body_cash_box_butten:hover{
+  background-color: #FEC009;
+  color: #2C394A;
+  border: none;
+}
+
+.content_body_cash_grid_last{
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.final_price{
+  font-size: 30px;
+
+}
+
+.content_body_cash_butten{
+  margin: 70px 300px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+
+.hiden{
+  display: none;
+}
