@@ -1,17 +1,24 @@
+.content_feed{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    position: relative;
+}
 .content_feedheader{
-    width: 80%;
+    width: 70%;
     height: 60px;
     background-color: white;
     display: grid;
     grid-template-columns: 9fr 1fr;
     align-items: center;
-    
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.5);    
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+    /*transition: transform 0.5s;*/
 }
 .content_feedheader_left{
     display: flex;
-    align-items: left;
     gap: 8px;
 }
 .content_feedheader_userPhoto{
@@ -21,6 +28,9 @@
     border: 1px solid gray;
     border-radius: 50px;
 }
+.content_feedheader_userPhoto:hover{
+    cursor: pointer;
+}
 .content_feedheader_userId{
     color: #000;
     font-size: 1.1rem;
@@ -29,14 +39,13 @@
     font-size: 0.8rem;
     color: #000;
 }
-.content_feedheader_right{
-    align-items: right;
-}
 .content_feedheader_moreBtn{
-    width: 33px;
-    margin-left: auto;
+    justify-content: end;
     display: flex;
     gap: 9px;
+}
+.content_feedheader_moreBtn{
+    cursor: pointer;
 }
 .dot{
     width: 5px;
@@ -47,48 +56,122 @@
 }
 
 .content_feedPhoto{
-    width: 80%;
-    height: 600px;
+    width: 70%;
+    /*height: 700px;*/
+    aspect-ratio: 5 / 4;
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: gray;
+
+    /*transition: transform 0.5s;*/
 }
 
 .content_feedfooter{
-    width: 80%;
+    width: 70%;
     height: 60px;
     display: grid;
-    grid-template-columns: 9fr 1fr;
+    grid-template-columns: 8fr 2fr;
     align-items: center;
     padding: 15px;
     border: 1px solid rgba(0, 0, 0, 0.5);
+
+    /*transition: transform 0.5s;*/
 }
 .content_feedfooter_left{
     align-items: center;
 }
 .content_feedfooter_text{
+    font-size: 1.2rem;
     color: #000;
 }
 .content_feedfooter_right{
-    align-items: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 5px;
 }
 .content_feedfooter_likeBtn{
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background-color: gray;
 }
+.content_feedfooter_likeBtn:hover{
+    cursor: pointer;
+}
 .content_feedfooter_like{
-
+    color: #000;
 }
 .content_feedfooter_commentBtn{
-
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+}
+.content_feedfooter_commentBtn:hover{
+    cursor: pointer;
 }
 .content_feedfooter_comment{
-
+    color: #000;
 }
 .content_feedfooter_scrapBtn{
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+}
+.content_feedfooter_scrapBtn:hover{
+    cursor: pointer;
+}
+/*
+.content_feedcommentbox{
+    width: 30%;
+    height: 820px;
+    display: none;
+}
+.shifted {
+    transform: translateX(-20%);
+  }
+.visible {
+    display: block;
+}*/
 
+/*더보기창*/
+.content_feedMore{
+    display: none;
+    position: absolute;
+    right: 0;
+    border: 1px solid black;
+}
+.content_feedMore_changeBtn, .content_feedMore_delete{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.content_feedMore_changeBtn:hover, .content_feedMore_delete:hover, .content_feedMore_likeCheck:hover{
+    cursor: pointer;
 }
 
+/*피드 작성*/
+.content_createFeed{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.content_createFeed_header{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.content_createFeed_body{
+    width: 70%;
+    aspect-ratio: 5 / 4;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/*하단 고정*/
+.이걸어쩌지{
+    height: 120px;
+}
 .footer_feedMenu{
     width: 100%;
     height: 100px;
@@ -97,6 +180,9 @@
     justify-content: center;
     gap : 250px;
     padding: 15px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
 }
 .footer_feedMenu_feedHomeBtn{
     width: 70px;
@@ -119,13 +205,11 @@
     border-radius: 50px;
     background-color: gray;
 }
+.footer_feedMenu_createFeedBtn:hover, .footer_feedMenu_feedHomeBtn:hover,
+ .footer_feedMenu_myFeedBtn:hover{
+    cursor: pointer;
+}
 
-
-
-/*
-
-
-
-
-
-*/
+.hiden{
+    display: none;
+}
