@@ -207,12 +207,12 @@
 }
 
 /*마이 피드*/
-.content_body_feed{
+.content_myFeed{
   width: 100%;
   text-align: center;
 }
 
-.content_body_feed_profile{
+.content_myFeed_profile{
   margin-top: 100px;
   display: grid;
   grid-template-columns: 2fr 5fr;
@@ -220,14 +220,14 @@
 }
 
 
-.content_body_feed_profile_left_box{
+.content_myFeed_profile_left_box{
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 300px;
 }
 
-.content_body_feed_profile_img{
+.content_myFeed_profile_img{
   height: 300px;
   width: 300px;
   margin-bottom: 20px;
@@ -235,17 +235,17 @@
   border-radius: 100%;
 }
 
-.content_body_feed_profile_id{
+.content_myFeed_profile_id{
   font-weight: bold;
 }
 
-.content_body_feed_profile_right{
+.content_myFeed_profile_right{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.content_body_feed_profile_box{
+.content_myFeed_profile_box{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-size: 30px;
@@ -253,7 +253,7 @@
   margin-bottom: 10px;
 }
 
-.content_body_feed_profile_text{
+.content_myFeed_profile_text{
   text-align: start;
   margin: 20px;
   background-color: rgb(192, 192, 192);
@@ -262,25 +262,26 @@
   font-weight: lighter;
 }
 
-.content_body_feed_profile_butten_box{
+.content_myFeed_profile_butten_box{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
 }
 
-.content_body_feed_profile_butten{
+.content_myFeed_profile_butten{
   padding: 20px;
   border: 1px solid black;
   border-radius: 10px;
   margin: 20px;
 }
-.content_body_feed_profile_butten:hover{
+.content_myFeed_profile_butten:hover{
   background-color: #FEC009;
   color: #2C394A;
   border: none;
+  cursor: pointer;
 }
 
-.content_body_feed_myfeeds{
+.content_myFeed_myfeeds{
   margin-top: 100px;
   width: 100%;
   display: grid;
@@ -288,12 +289,67 @@
   gap: 20px;
 }
 
-.content_body_feed_myfeeds > div{
+.content_myFeed_myfeeds > div{
   background-color: gray;
   width: auto;
   height: 300px;
 }
 
+/*팔로워 확인*/
+.content_follow{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+.content_follow_header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.content_follow_backBtn{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+}
+.content_follow_backBtn:hover{
+    cursor: pointer;
+}
+.content_follow_Id{
+    color: #000;
+}
+.content_follow_choose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+.content_follow_followerBtn{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    color: #2c394a;
+    border: 1px solid #000;
+    text-align: center;
+}
+              <div class="content_follow_followingBtn"></div>
+            </div>
+            <div class="content_follow_follower">
+              <div class="content_follower_userProfile"></div>
+              <div class="content_follower_user">
+                <div class="content_follower_userId">userId</div>
+                <div class="content_follower_userName">userName</div>
+              </div>
+              <div class="content_follower_deleteFollower">삭제</div>
+            </div>
+            <div class="content_follow_following">
+              <div class="content_following_userProfile"></div>
+              <div class="content_following_user">
+                <div class="content_following_userId">userId</div>
+                <div class="content_following_userName">userName</div>
+              </div>
+              <div class="content_following_deleteFollowing
+/*팔로잉 확인*/
 
 /*하단 고정*/
 .blank{
