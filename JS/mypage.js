@@ -9,6 +9,11 @@ document.querySelector(".subscription").addEventListener("click", ()=>{
     document.querySelector(".myrecord").classList.remove("content_menu_bold")
     document.querySelector(".cash").classList.remove("content_menu_bold")
     document.querySelector(".myid").classList.remove("content_menu_bold")
+
+    document.querySelector(".head_subscription").classList.remove("hiden")
+    document.querySelector(".head_myrecord").classList.add("hiden")
+    document.querySelector(".head_cash").classList.add("hiden")
+    document.querySelector(".head_myid").classList.add("hiden")
 })
 document.querySelector(".myrecord").addEventListener("click", ()=>{
     document.querySelector(".content_body_myrecord").classList.remove("hiden")
@@ -20,6 +25,11 @@ document.querySelector(".myrecord").addEventListener("click", ()=>{
     document.querySelector(".subscription").classList.remove("content_menu_bold")
     document.querySelector(".cash").classList.remove("content_menu_bold")
     document.querySelector(".myid").classList.remove("content_menu_bold")
+
+    document.querySelector(".head_myrecord").classList.remove("hiden")
+    document.querySelector(".head_subscription").classList.add("hiden")
+    document.querySelector(".head_cash").classList.add("hiden")
+    document.querySelector(".head_myid").classList.add("hiden")
 })
 document.querySelector(".cash").addEventListener("click", ()=>{
     document.querySelector(".content_body_cash").classList.remove("hiden")
@@ -31,6 +41,11 @@ document.querySelector(".cash").addEventListener("click", ()=>{
     document.querySelector(".myrecord").classList.remove("content_menu_bold")
     document.querySelector(".subscription").classList.remove("content_menu_bold")
     document.querySelector(".myid").classList.remove("content_menu_bold")
+
+    document.querySelector(".head_cash").classList.remove("hiden")
+    document.querySelector(".head_myrecord").classList.add("hiden")
+    document.querySelector(".head_subscription").classList.add("hiden")
+    document.querySelector(".head_myid").classList.add("hiden")
 })
 document.querySelector(".myid").addEventListener("click", ()=>{
     document.querySelector(".content_body_myid").classList.remove("hiden")
@@ -42,6 +57,11 @@ document.querySelector(".myid").addEventListener("click", ()=>{
     document.querySelector(".myrecord").classList.remove("content_menu_bold")
     document.querySelector(".cash").classList.remove("content_menu_bold")
     document.querySelector(".subscription").classList.remove("content_menu_bold")
+
+    document.querySelector(".head_myid").classList.remove("hiden")
+    document.querySelector(".head_myrecord").classList.add("hiden")
+    document.querySelector(".head_cash").classList.add("hiden")
+    document.querySelector(".head_subscription").classList.add("hiden")
 })
 
 
