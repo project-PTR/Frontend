@@ -1,3 +1,108 @@
+
+/* 피드 부분 */
+/* 
+.content_body_feed{
+  width: 100%;
+  text-align: center;
+}
+
+.content_body_feed_profile{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 10px;
+}
+
+
+.content_body_feed_profile_left_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.content_body_feed_profile_img{
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+  background-color: gray;
+  border-radius: 100%;
+}
+
+.content_body_feed_profile_id{
+  font-weight: bold;
+}
+
+.content_body_feed_profile_right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content_body_feed_profile_box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.content_body_feed_profile_text{
+  text-align: start;
+  margin: 20px;
+  background-color: rgb(192, 192, 192);
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: lighter;
+}
+
+.content_body_feed_profile_butten_box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.content_body_feed_profile_butten{
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px;
+}
+.content_body_feed_profile_butten:hover{
+  background-color: #FEC009;
+  color: #2C394A;
+  border: none;
+}
+
+.content_body_feed_myfeeds{
+  margin-top: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.content_body_feed_myfeeds > div{
+  background-color: gray;
+  width: auto;
+  height: 300px;
+} */
+
+/* 피드부분 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .content_menu > div:hover{
   font-weight: bold;
 }
@@ -186,116 +291,7 @@
 
 
 
-/* 피드 */
 
-.content_body_feed{
-  width: 100%;
-  text-align: center;
-}
-
-.content_body_feed_profile{
-  margin-top: 100px;
-  display: grid;
-  grid-template-columns: 2fr 5fr;
-  gap: 10px;
-}
-
-
-.content_body_feed_profile_left_box{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-}
-
-.content_body_feed_profile_img{
-  height: 300px;
-  width: 300px;
-  margin-bottom: 20px;
-  background-color: gray;
-  border-radius: 100%;
-}
-
-.content_body_feed_profile_id{
-  font-weight: bold;
-}
-
-.content_body_feed_profile_right{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.content_body_feed_profile_box{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  font-size: 30px;
-  padding: 10px;
-  margin-bottom: 50px;
-}
-
-
-.content_body_feed_profile_butten_box{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-}
-
-.content_body_feed_profile_butten{
-  padding: 20px;
-  border: 1px solid black;
-  border-radius: 10px;
-  margin: 20px;
-}
-.content_body_feed_profile_butten:hover{
-  background-color: #FEC009;
-  color: #2C394A;
-  border: none;
-}
-
-.content_body_feed_myfeeds{
-  margin-top: 100px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-
-.content_body_feed_myfeeds > div{
-  background-color: gray;
-  width: auto;
-  height: 300px;
-}
-
-
-
-
-
-/* <div class="content_body_cash">
-            <div>캐시 충전소</div>
-            <div class="content_body_cash_menu">
-              <div>충전</div>
-              <div>충전내역</div>
-            </div>
-            <div class="">
-              <div>현재 보유 단백질바</div>
-              <div>개</div>
-            </div>
-            <div class="">
-              <div class=""></div>
-              <div class="content_body_cash_box_text">단백질바 1개</div>
-              <div class="content_body_cash_box_butten">200원</div>
-            </div>
-            <div class="content_body_cash_flex">
-              <div>충전 후 보유 단백질바</div>
-              <div>개</div>
-            </div>
-            <div class="content_body_cash_flex">
-              <div>결제 금액</div>
-              <div>원</div>
-            </div>
-            <div class="">결제하기</div>
-*/
 
 .content_body_cash{
   width: 100%;
