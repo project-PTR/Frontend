@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="css/record.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="CSS/record.css" />
+    <title>PTR</title>
   </head>
   <body>
     <div class="container">
@@ -37,12 +37,27 @@
         </div>
         <div class="content_body">
           <div class="content_date">
-            <div class="content_date_left">&lt;</div>
+            <div class="content_date_left" onclick="prevMonth()">&lt;</div>
             <div class="content_date_year">2024.</div>
             <div class="content_date_month">06</div>
-            <div class="content_date_right">&gt;</div>
+            <div class="content_date_right" onclick="nextMonth">&gt;</div>
           </div>
-          <div class="content_chart"></div>
+          <div class="content_chart">
+            <table id="calendar">
+              <thead>
+                <tr>
+                  <th>일</th>
+                  <th>월</th>
+                  <th>화</th>
+                  <th>수</th>
+                  <th>목</th>
+                  <th>금</th>
+                  <th>토</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
           <div class="content_stat">
             <div class="content_stat_tab">
               <div>섭취량</div>
@@ -69,6 +84,6 @@
         </div>
       </div>
     </div>
-    <script src="/js/record.js"></script>
+    <script src="js/record.js"></script>
   </body>
 </html>
