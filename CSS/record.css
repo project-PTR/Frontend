@@ -29,6 +29,7 @@
   width: 14.28%;
   height: 100px;
   text-align: center;
+  cursor: pointer;
 }
 #calendar th {
   background-color: #fff;

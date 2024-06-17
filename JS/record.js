@@ -17,9 +17,13 @@ document.addEventListener("DOMContentLoaded", function () {
         if (i === 0 && j < firstDay) {
           cell.innerHTML = "";
         } else if (date > lastDate) {
-          break;
+          cell.innerHTML = "";
         } else {
           cell.innerHTML = date;
+          cell.addEventListener("click", function () {
+            window.location.href =
+              "management.html?year=${year}&month=${month}&date=${date}";
+          });
           date++;
         }
         row.appendChild(cell);
