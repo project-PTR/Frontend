@@ -1,6 +1,11 @@
 .content_menu > div:hover{
   font-weight: bold;
 }
+
+.content_menu_bold{
+  font-weight: bold;
+}
+
 .content_body{
   height: 10000px;
   font-weight: bold;
@@ -303,7 +308,7 @@
   font-size: 50px;
 }
 .content_body_cash_menu{
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   border-bottom: 1px solid black;
   align-items: center;
@@ -378,8 +383,92 @@
   text-align: center;
 }
 
+.content_body_cash_butten:hover{
+  background-color: #FEC009;
+  color: #2C394A;
+  border: none;
+}
 
 
+.content_body_myid{
+  width: 100%;
+  padding-bottom: 50px;
+  border: 1px solid black;
+  margin-top: 40px;
+}
+
+.content_body_myid_hiden_grid{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 10px;
+  margin: 50px 10%;
+  align-items: center;
+}
+.content_body_myid_name{
+  text-align: end;
+}
+.content_body_myid_value{
+  padding: 10px;
+  background-color: rgb(204, 204, 204);
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.content_body_myid_tap{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: -1px 10%;
+  padding: 20px 20px 20px 40px;
+}
+
+.tap_name{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.myid_tap2_box{
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+.myid_tap2_box_name{
+  font-size: 25px;
+}
+
+.myid_tap2_box_value{
+  font-weight: lighter;
+  margin: 30px;
+}
+
+.myid_tap2_butten{
+  margin: 50px 40%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.myid_tap2_butten:hover{
+  background-color: #FEC009;
+  color: #2C394A;
+  border: none;
+}
+
+.myid_tap3_name{
+  margin-left: 15%;
+  margin-top: 40px;
+}
+
+.myid_tap3_value{
+  margin-left: 20px;
+}
+
+.myid_tap3_value_text{
+  width: 80%;
+}
 
 .hiden{
   display: none;
