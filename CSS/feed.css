@@ -387,7 +387,6 @@
 /*팔로워 확인*/
 .content_follow{
     width: 100%;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -478,6 +477,31 @@
 .content_follower_deleteFollower, .content_following_deleteFollowing{
     cursor: pointer;
 }
+/*scrap*/
+.content_scrapFeed{
+    border: 1px solid #000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content_scrapFeed_header{
+    color: #000;
+    font-size: 2rem;
+}
+.content_scrapFeed_feeds{
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+  
+.content_scrapFeed_feeds > div{
+    background-color: gray;
+    width: auto;
+    height: 300px;
+}
 
 /*하단 고정*/
 .blank{
@@ -489,7 +513,7 @@
     border-top: 1px solid rgba(0, 0, 0, 0.5);
     display : flex;
     justify-content: center;
-    gap : 250px;
+    gap : 200px;
     padding: 15px;
     position: fixed;
     bottom: 0;
@@ -516,8 +540,15 @@
     border-radius: 50px;
     background-color: gray;
 }
+.footer_feedMenu_scrapFeedBtn{
+    width: 70px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: gray;
+}
 .footer_feedMenu_createFeedBtn:hover, .footer_feedMenu_feedHomeBtn:hover,
- .footer_feedMenu_myFeedBtn:hover{
+ .footer_feedMenu_myFeedBtn:hover, .footer_feedMenu_scrapFeedBtn{
     cursor: pointer;
 }
 
