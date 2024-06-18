@@ -22,8 +22,8 @@
 }
 
 .profile_image img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background: #ccc;
 }
@@ -33,6 +33,7 @@
   align-items: center;
   margin-bottom: 30px;
   margin-top: 20px;
+  text-align: center;
 }
 
 .form_group label {
@@ -52,17 +53,20 @@
 .radio_group {
   display: flex;
   gap: 10px;
-}
-
-.radio_group label {
-  background: #e0e0e0;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+  width: 200px;
+  text-align: center;
 }
 
 .radio_group input[type="radio"] {
   display: none;
+}
+
+.radio_group input[type="radio"] + label {
+  background: #e0e0e0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: bakground 0.3s, color 0.3s;
 }
 
 .radio_group input[type="radio"]:checked + label {
@@ -70,32 +74,55 @@
   color: white;
 }
 
+.checkbox_label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
 .checkbox_group {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
-.checkbox_group label {
-  background: #e0e0e0;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
+.checkbox_group div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .checkbox_group input[type="checkbox"] {
-  display: none;
+  margin-right: 5px;
 }
 
-.checkbox_group input[type="checkbox"]:checked + label {
-  background: #333;
-  color: white;
+.checkbox_group label {
+  display: block;
+  margin-top: 5px;
 }
 
 .weight_group {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  margin-left: 200px;
+}
+
+.weight_group label {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.weight_group input {
+  height: 30px;
+  margin-bottom: 30px;
 }
 
 .customization_setting {
@@ -106,7 +133,7 @@
 
 .customization_setting h1 {
   text-align: center;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
   position: relative;
   font-size: 20px;
   margin-top: 80px;
@@ -130,6 +157,13 @@
   right: 0;
 }
 
+.customization_setting .subheading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 button[type="submit"] {
   width: 100%;
   padding: 10px;
@@ -138,7 +172,8 @@ button[type="submit"] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 25px;
+  margin-top: 30px;
 }
 
 button[type="submit"]:hover {
