@@ -28,6 +28,24 @@
   background: #ccc;
 }
 
+.profile_image input[type="file"] {
+  display: none;
+}
+
+.profile_image label {
+  cursor: pointer;
+  color: #2c394a;
+  background: #f9f9f9;
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, color 0.3s;
+}
+
+.profile_image label:hover {
+  background: #2c394a;
+  color: white;
+}
 .form_group {
   display: flex;
   align-items: center;
@@ -62,7 +80,7 @@
 }
 
 .radio_group input[type="radio"] + label {
-  background: #e0e0e0;
+  background: #2c394a;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -110,8 +128,7 @@
 .weight_group {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-  margin-left: 200px;
+  gap: 100px;
 }
 
 .weight_group label {
@@ -167,7 +184,7 @@
 button[type="submit"] {
   width: 100%;
   padding: 10px;
-  background: #333;
+  background: #2c394a;
   color: white;
   border: none;
   border-radius: 5px;
