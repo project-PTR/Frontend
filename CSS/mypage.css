@@ -1,5 +1,6 @@
 .content_menu > div:hover{
   font-weight: bold;
+  cursor: pointer;
 }
 
 .content_menu_bold{
@@ -7,7 +8,7 @@
 }
 
 .content_body{
-  height: 10000px;
+  padding-bottom: 100px;
   font-weight: bold;
   font-size: 20px;
 }
@@ -57,6 +58,7 @@
   padding: 10px;
   background-color: green;
   border-radius: 10px;
+  cursor: pointer;
 }
 .content_body_subscriptionlist_box_butten:hover{
   background-color: yellow;
@@ -70,6 +72,7 @@
 
 .content_body_favoriteLecture_box{
   background-color: gray;
+  cursor: pointer;
 }
 .content_body_favoriteLecture_box_img{
   height: 250px;
@@ -105,6 +108,7 @@
   color: white;
   padding: 20px;
   margin: 30px 30px 100px 30px;
+  cursor: pointer;
 }
 
 .content_body_myrecord_move > div:hover{
@@ -245,6 +249,7 @@
   padding: 10px;
   border: 1px solid black;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .content_body_cash_box_butten:hover{
@@ -272,6 +277,7 @@
   border-radius: 10px;
   font-size: 30px;
   text-align: center;
+  cursor: pointer;
 }
 
 .content_body_cash_butten:hover{
@@ -310,6 +316,7 @@
   border-bottom: 1px solid black;
   margin: -1px 10%;
   padding: 20px 20px 20px 40px;
+  cursor: pointer;
 }
 
 .tap_name{
@@ -340,6 +347,7 @@
   border-radius: 10px;
   font-size: 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 .myid_tap2_butten:hover{
