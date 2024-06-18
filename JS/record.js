@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
           cell.innerHTML = date;
           cell.addEventListener("click", function () {
             window.location.href =
-              "management.html?year=${year}&month=${month}&date=${date}";
+              "management.html?year=" + year + month + cell.innerHTML;
           });
           date++;
         }
