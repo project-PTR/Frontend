@@ -3,18 +3,23 @@
   padding: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 form {
   width: 600px;
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
+
 form h2 {
   margin-top: 30px;
   margin-bottom: 70px;
   text-align: center;
+  font-size: 35px;
 }
 
 form input {
@@ -22,15 +27,18 @@ form input {
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  height: 60px;
 }
 
 form button {
+  height: 60px;
   padding: 10px;
   background-color: #2c394a;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 25px;
 }
 
 .social_login {
@@ -49,7 +57,7 @@ form button {
 .social_login p::after {
   content: "";
   position: absolute;
-  top: 83%;
+  top: 82%;
   width: 30%;
   height: 1px;
   background-color: #ccc;
@@ -63,13 +71,6 @@ form button {
   right: 0;
 }
 
-.social_login button {
-  width: 100%;
-  padding: 10px;
-  background-color: #2c394a;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.signup_button {
   margin-top: 30px;
 }
