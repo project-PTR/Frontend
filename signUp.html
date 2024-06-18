@@ -32,28 +32,164 @@
       <div class="content">
         <div class="content_body">
           <form>
-            <h2>Personal Training Raise</h2>
-            <input
-              type="email"
-              id="email"
-              placeholder="email@domain.com"
-              required
-            />
-            <input
-              type="password"
-              id="password"
-              placeholder="password"
-              required
-            />
-            <button type="submit">LOGIN</button>
-            <div class="social_login">
-              <p>or continue with</p>
+            <div class="profile_image">
+              <img src="profile_placeholder.png" />
             </div>
-            <button id="signupButton" class="signup_button">SIGN UP</button>
+            <div class="form_group">
+              <label for="name">name :</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="form_group">
+              <label for="email">email :</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form_group">
+              <label for="password">password :</label>
+              <input type="password" id="password" required />
+            </div>
+            <div class="form_group">
+              <label>gender :</label>
+              <div class="radio_group">
+                <label
+                  ><input
+                    type="radio"
+                    name="gender"
+                    value="M"
+                    required
+                  />M</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="gender"
+                    value="W"
+                    required
+                  />W</label
+                >
+              </div>
+            </div>
+            <div class="form_group">
+              <label>Position :</label>
+              <div class="radio_group">
+                <label
+                  ><input
+                    type="radio"
+                    name="position"
+                    value="student"
+                    required
+                  />학생</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="position"
+                    value="teacher"
+                    required
+                  />강사</label
+                >
+              </div>
+            </div>
+            <div class="customization_setting">
+              <h1>Customization Setting</h1>
+              <div class="form_group">
+                <label>평소 활동량</label>
+                <div class="checkbox_group">
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="activity"
+                      value="text1"
+                    />Text1</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="activity"
+                      value="text2"
+                    />Text2</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="activity"
+                      value="text3"
+                    />Text3</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="activity"
+                      value="text4"
+                    />Text4</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="activity"
+                      value="text5"
+                    />Text5</label
+                  >
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="activity"
+                      value="text6"
+                    />Text6</label
+                  >
+                </div>
+              </div>
+              <div class="form_group">
+                <label>식단 모드</label>
+                <div class="checkbox_group">
+                  <lavel
+                    ><input
+                      type="checkbox"
+                      name="diet_mode"
+                      value="text1"
+                    />Text1</lavel
+                  >
+                  <lavel
+                    ><input
+                      type="checkbox"
+                      name="diet_mode"
+                      value="text2"
+                    />Text2</lavel
+                  >
+                  <lavel
+                    ><input
+                      type="checkbox"
+                      name="diet_mode"
+                      value="text3"
+                    />Text3</lavel
+                  >
+                  <lavel
+                    ><input
+                      type="checkbox"
+                      name="diet_mode"
+                      value="text4"
+                    />Text4</lavel
+                  >
+                </div>
+              </div>
+              <div class="form_group">
+                <label>목표 체중</label>
+                <div class="weight_group">
+                  <div>
+                    <label for="start_weight">시작 체중</label>
+                    <input type="number" id="start_weight" /> kg
+                  </div>
+                  <div>
+                    <label for="target_weight">목표 체중</label>
+                    <input type="number" id="target_weight" /> kg
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="submit">JOIN</button>
           </form>
         </div>
       </div>
     </div>
-    <script src="/js/signUp.js"></script>
+    <script src="/JS/signUp.js"></script>
   </body>
 </html>
